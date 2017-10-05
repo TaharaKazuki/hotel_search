@@ -1,0 +1,37 @@
+{
+  "name": "hotel_search",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://TaharaKazuki@github.com/TaharaKazuki/hotel_search.git",
+  "author": "田原 一樹 <ssp0727.lnc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "dependencies": {
+    "axios": "0.16.2",
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.4",
+    "extract-text-webpack-plugin": "3.0.0",
+    "import-glob-loader": "1.1.0",
+    "node-sass": "4.5.3",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-google-maps": "7.2.0",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.18.2",
+    "webpack": "3.3.0",
+    "webpack-dev-server": "2.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0"
+  }
+}
