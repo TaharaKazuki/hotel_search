@@ -7,8 +7,8 @@ export const geocode = place => (
     .then((results) => {
       const data = results.data;
       const status = data.status;
-      const result = data.result[0];
-      if (typeof results === 'undefined') {
+      const result = data.results[0];
+      if (typeof result === 'undefined') {
         return { status };
       }
       const address = result.formatted_address;
