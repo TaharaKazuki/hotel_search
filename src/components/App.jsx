@@ -6,7 +6,7 @@ import Map from './Map';
 import HotelsTable from './HotelsTable';
 
 import { geocode } from '../domain/Geocoder';
-import { searchHotelByLocation } from '../domain/HotelRepository';
+import { searchHotelByLocation } from '../domain/HotelRepositorys';
 
 class App extends Component {
   constructor(props) {
@@ -16,16 +16,7 @@ class App extends Component {
         lat: 35.6585805,
         lng: 139.7454329,
       },
-      hotels: [
-        {
-          name: 'ホテル1',
-          url: 'https://yahoo.co.jp',
-        },
-        {
-          name: 'ホテル2',
-          url: 'https://google.com',
-        },
-      ],
+      hotels: [],
     };
   }
   setErrorMessage(message) {

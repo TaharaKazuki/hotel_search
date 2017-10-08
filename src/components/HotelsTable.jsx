@@ -7,7 +7,7 @@ const HotelsTable = ({ hotels }) => (
   <table>
     <tbody>
       <tr><th>ホテル名</th></tr>
-      {hotels.map((hotel, i) => (<HotelRow hotel={hotel} key={i} />))}
+      {hotels.map(hotel => (<HotelRow hotel={hotel} key={hotel.id} />))}
     </tbody>
   </table>
 );
