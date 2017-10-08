@@ -4,7 +4,7 @@ import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
 
 const InnerMap = withGoogleMap(({ location, marker }) => (
   <GoogleMap
-    defaultZoom={12}
+    defaultZoom={14}
     defaultCenter={location}
     center={location}
   >
